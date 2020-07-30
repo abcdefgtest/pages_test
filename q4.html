@@ -30,8 +30,13 @@ input[type=number]{
     <div id="qr-reader" style="width:500px"></div>
     <div id="qr-reader-results"></div>
   </body>
-  <script src="https://raw.githubusercontent.com/mebjas/html5-qrcode/master/minified/html5-qrcode.min.js"></script>
-  <script src="html5-qrcode-demo.js"></script>
 
+  <!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- production version, optimized for size and speed -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+  
+ <script src="./VueQrcodeReader.umd.min.js"></script>
+  
   </head>
 </html>
