@@ -67,6 +67,7 @@ input[type=number]{
 <script>
 var qrdata = document.getElementById('qr-data_id');
 var qrcode = new QRCode(document.getElementById('qrcode_div_id'));
+genQR();
 function genQR() {
     var data = qrdata.value
     qrcode.makeCode(data);
